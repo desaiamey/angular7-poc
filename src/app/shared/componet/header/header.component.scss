@@ -1,0 +1,14 @@
+.header-container {
+    display: flex;
+    justify-content: space-between;;
+    &--btn {
+        height: 30px;
+        border: 0;
+        width: 70px;
+        background: #218ef3;
+        border-radius: 5px;
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+    }
+}

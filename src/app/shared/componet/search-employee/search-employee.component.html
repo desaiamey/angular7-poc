@@ -1,0 +1,6 @@
+<div class="search-section">
+  <form [formGroup]="searchForm">
+    <input type="text" formControlName="name" placeholder="Search by employee name ..." class="search-section__field" />
+    <button class="search-section--btn" (click)="searchEmployee()"> Search </button>
+</form>
+</div>

@@ -1,0 +1,38 @@
+.login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    &__form {
+        box-shadow: 0px 0px 8px 0px grey;
+        padding: 10%;
+        .group {
+            padding: 15px 0;
+            &__control {
+                    padding: 5px;
+                    margin-left: 15px;
+                    box-shadow: 0px 0px 3px 0px #2196F3;
+                    border: 0;
+            }
+            .btn {
+                    width: 100%;
+                    border: 0;
+                    background: #218ef3;
+                    height: 35px;
+                    border-radius: 5px;
+                    cursor: pointer;
+                
+             }
+            &__alert {
+                color: red;
+            } 
+            &__loader {
+                text-align: center;
+                img {
+                    padding-top: 10px;
+                }
+            }
+        }
+    }
+ }
