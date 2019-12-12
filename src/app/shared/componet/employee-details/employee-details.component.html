@@ -1,0 +1,18 @@
+<div class="employee-details">
+    <div>
+        <strong>Your search result: </strong> {{ empData.length }}
+    </div>
+    <br/>
+    <table>
+        <tr class="employee-details__header">
+            <th>Employee ID</th>
+            <th>Employee Name</th>
+            <th>Salary</th>
+        </tr>
+        <tr class="employee-details__data" *ngFor="let employee of empData">
+            <td> {{employee.id}} </td>
+            <td> {{employee.name}} </td>
+            <td> {{employee.salary}} </td>
+        </tr>
+    </table>
+</div>

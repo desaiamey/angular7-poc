@@ -6,6 +6,8 @@
     align-items: center;
     form {
         width: 100%;
+        display: flex;
+        justify-content: center;
     }
     &__field {
         border-radius: 5px;
@@ -26,4 +28,11 @@
         font-weight: bold;
         margin-left: 10px;
     }
+}
+
+.hdivider {
+    height: 1.5px;
+    background: #80808069;
+    width: 100%;
+    margin: 20px 0;
 }

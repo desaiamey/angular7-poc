@@ -9,6 +9,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
  * Internal Imports
  */
 import { SearchEmployeeComponent } from './search-employee.component';
+import { EmployeeDetailsModule } from '../../../shared/componet/employee-details/employee-details.module';
+
 
 /**
  * Admin Module
@@ -23,7 +25,8 @@ import { SearchEmployeeComponent } from './search-employee.component';
   imports: [
     CommonModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    EmployeeDetailsModule
   ]
 })
 export class SearchEmployeeModule { }

@@ -27,7 +27,7 @@ import { SearchEmployeeModule } from '../../shared/componet/search-employee/sear
     RouterModule.forChild(AdminRoutes),
     CommonModule,
     HeaderModule,
-    SearchEmployeeModule,
+    SearchEmployeeModule
   ]
 })
 export class AdminModule { }

@@ -1,0 +1,15 @@
+.employee-details {
+    table {
+        width: 100%;
+        border: 1px solid #CCC;
+    }
+    &__header {
+        background: #ccc;
+    }
+    &__data {
+        border-bottom: 1px solid #ccc;
+        td {
+            text-align: center;
+        }
+    }
+}

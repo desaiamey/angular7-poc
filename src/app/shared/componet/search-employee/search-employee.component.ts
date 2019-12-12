@@ -10,6 +10,7 @@ import { SearchService } from '../../services/search.service';
 })
 export class SearchEmployeeComponent implements OnInit {
   public searchForm: FormGroup;
+  public employeeDetails: any;
 
   constructor(
     private searchService: SearchService,
@@ -28,6 +29,7 @@ export class SearchEmployeeComponent implements OnInit {
     this.searchService.search(this.searchForm.controls.name.value).pipe()
     .subscribe(data => {
       console.log(data);
+      this.employeeDetails = data;
     });
   }
 
